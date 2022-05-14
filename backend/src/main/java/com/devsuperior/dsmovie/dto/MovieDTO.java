@@ -7,10 +7,10 @@ public class MovieDTO {
 	private Long id;
 	private String title;
 	private Double score;
-	private Double count;
+	private Integer count;
 	private String image;
 
-	public MovieDTO(Long id, String title, Double score, Double count, String image) {
+	public MovieDTO(Long id, String title, Double score, Integer count, String image) {
 		this.id = id;
 		this.title = title;
 		this.score = score;
@@ -50,11 +50,11 @@ public class MovieDTO {
 		this.score = score;
 	}
 
-	public Double getCount() {
+	public Integer getCount() {
 		return count;
 	}
 
-	public void setCount(Double count) {
+	public void setCount(Integer count) {
 		this.count = count;
 	}
 
