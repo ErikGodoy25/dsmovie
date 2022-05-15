@@ -626,3 +626,57 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2022-05-14 18:19:36.731
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-05-14 19:00:40.106
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-05-14 19:00:40.934
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-05-14 21:45:51.085
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-05-14 21:57:18.076
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-05-14 21:57:19.546
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2022-05-14 21:58:10.730
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1384)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
