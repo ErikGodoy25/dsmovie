@@ -1,6 +1,13 @@
+import axios from 'axios';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { BASE_URL } from 'utilis/requests';
 import './style.css';
 function Form() {
+
+    useEffect(() => {
+        axios.get(`${BASE_URL}/movie/${movie.id}`)
+    })
 
     const movie = {
         id: 1,
